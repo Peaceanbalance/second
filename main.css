@@ -1,0 +1,36 @@
+body {
+color:black;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+/* line 6 to 10 is for main heading line 1 to 4 is for whole document text and color */
+
+}
+h1 {
+    color:blue;
+    font-size: 3em;
+}
+
+.fallon {
+    color:blueviolet;
+    background-color: aquamarine;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav_item{
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    padding: 25px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    width: 150px;
+    align-items: center;
+}
+
